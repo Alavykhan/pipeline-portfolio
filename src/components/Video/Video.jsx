@@ -17,7 +17,7 @@ const Video = ({video}) => {
                 </h2>
                 <p>{company}</p>
                 <div className="card-actions justify-end">
-                <Link to={`${videoY}`} target="blank"><button className="btn btn-outline text-lg ">Watch Now <BsFillArrowUpRightCircleFill /></button></Link>
+                <Link to={`${videoY}`} target="blank"><button className="btn btn-outline text-md ">Watch Now <BsFillArrowUpRightCircleFill /></button></Link>
                 </div>
             </div>
             </div>
