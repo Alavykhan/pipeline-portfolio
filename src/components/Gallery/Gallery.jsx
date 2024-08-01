@@ -1,7 +1,5 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
-// import img1 from '../../../public/images/1.jpg'
-// import img2 from '../../../public/images/2.jpg'
 
 const images = [
     "https://i.ibb.co/nPL193p/pipeline-9.jpg",
@@ -21,7 +19,7 @@ const Gallery = () => {
     return (
         <>
 
-        <div className="mt-20 px-20">
+        <div className="mt-20 md:px-20 px-5">
         <h2 className="md:text-5xl font-semibold text-black mb-10">Capturing <span className="text-red-700">Moments</span></h2>
         <ResponsiveMasonry
         columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}

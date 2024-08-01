@@ -13,7 +13,7 @@ const LatestWork = () => {
     },[]);
 
     return (
-        <div className="md:mt-20 px-20 bg-white">
+        <div className="md:mt-20 md:px-20 px-5 bg-white">
             <h2 className="md:text-5xl font-semibold text-black">Latest <span className="text-red-700">Work</span></h2>
             <div className="grid md:grid-cols-2 md:gap-y-16 gap-y-5 gap-x-8 md:mt-12">
                 {
@@ -23,7 +23,7 @@ const LatestWork = () => {
                 }
             </div>
             <div className="text-center mt-10">
-            <Link to=''><button className="btn text-white bg-red-700 text-lg">See More <BsFillArrowUpRightCircleFill /></button></Link>
+            <Link to='work'><button className="btn text-white bg-red-700 text-lg">See More <BsFillArrowUpRightCircleFill /></button></Link>
             </div>
         </div>
     );

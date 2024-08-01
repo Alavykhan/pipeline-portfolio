@@ -1,3 +1,4 @@
+import CallToAction from "../CallToAction/CallToAction";
 import Clients from "../Clients/Clients";
 import Gallery from "../Gallery/Gallery";
 import HeroSection from "../HeroSection/HeroSection";
@@ -12,6 +13,7 @@ const Home = () => {
             <LatestWork/>
             <Gallery/>
             <Clients/>
+            <CallToAction/>
         </div>
     );
 };

@@ -5,7 +5,7 @@ const Video = ({video}) => {
     const {name, img, company, videoY} = video
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl">
+            <div className="card bg-base-100 shadow-xl text-white">
             <figure className="zoom-container">
               <Link to={`${videoY}`} target="blank"> <img 
                 src={img}
@@ -17,7 +17,7 @@ const Video = ({video}) => {
                 </h2>
                 <p>{company}</p>
                 <div className="card-actions justify-end">
-                <Link to={`${videoY}`} target="blank"><button className="btn btn-outline text-md ">Watch Now <BsFillArrowUpRightCircleFill /></button></Link>
+                <Link to={`${videoY}`} target="blank"><button className="btn btn-outline text-white md:text-md ">Watch Now <BsFillArrowUpRightCircleFill /></button></Link>
                 </div>
             </div>
             </div>
